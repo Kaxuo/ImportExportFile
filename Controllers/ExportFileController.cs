@@ -17,16 +17,32 @@ namespace ExportPDF.Controllers
         [HttpGet("{reportName}")]
         public ActionResult Generate(string reportName)
         {
-            var reportFileByteString = _exportRepository.GenerateReportAsync(reportName);
-            // Provile values to the report //
-            return File(reportFileByteString, MediaTypeNames.Application.Octet, reportName + ".pdf");
+            try
+            {
+                var reportFileByteString = _exportRepository.GenerateReportAsync(reportName);
+                // Provile values to the report //
+                return File(reportFileByteString, MediaTypeNames.Application.Octet, reportName + ".pdf");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+
         }
 
         [HttpPost("send")]
-        public List<FinancialReport> Send(IFormFile file)
+        public ActionResult<List<FinancialReport>> Send(IFormFile file)
         {
-            var value = _exportRepository.Import(file);
-            return value;
+
+            try
+            {
+                var value = _exportRepository.Import(file);
+                return Ok(value);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
     }
 }

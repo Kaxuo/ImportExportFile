@@ -12,7 +12,6 @@ namespace ExportPDF.Repository
     {
         public byte[] GenerateReportAsync(string reportName)
         {
-
             // ExportedPDF.dll can be found in bin/debug/.. , needed to find the rdlc file
             string fileDirPath = Assembly.GetExecutingAssembly().Location.Replace("ExportedPDF.dll", string.Empty);
             // Providing the path and file name
@@ -35,6 +34,14 @@ namespace ExportPDF.Repository
 
         public List<FinancialReport> Import(IFormFile file)
         {
+            if (file == null)
+            {
+                throw new Exception("File not found");
+            }
+            if (Path.GetExtension(file.FileName) != ".xlsx")
+            {
+                throw new Exception("Invalid File Type, Please us a .xlsx File");
+            }
             List<FinancialReport> allFinanceReportList = new List<FinancialReport>();
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             using (var stream = new MemoryStream())
