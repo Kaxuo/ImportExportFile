@@ -66,8 +66,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox9</rd:DefaultName>
-            <Top>0.48683cm</Top>
-            <Left>4.80873cm</Left>
+            <Top>0.43497cm</Top>
+            <Left>4.37485cm</Left>
             <Height>0.6cm</Height>
             <Width>7.93868cm</Width>
             <Style>
@@ -227,21 +227,21 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox2">
+                        <Textbox Name="FirstName">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
+                                  <Value>=Fields!FirstName.Value</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <rd:DefaultName>FirstName</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -368,8 +368,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>dsProducts</DataSetName>
-            <Top>2.13361cm</Top>
-            <Left>0.37185cm</Left>
+            <Top>2.02778cm</Top>
+            <Left>0.23055cm</Left>
             <Height>1.2cm</Height>
             <Width>18.31272cm</Width>
             <ZIndex>1</ZIndex>
@@ -379,37 +379,6 @@
               </Border>
             </Style>
           </Tablix>
-          <Textbox Name="FirstName">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>=Fields!FirstName.Value</Value>
-                    <Style />
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>FirstName</rd:DefaultName>
-            <Top>2.73361cm</Top>
-            <Left>0.37185cm</Left>
-            <Height>0.6cm</Height>
-            <Width>4.57818cm</Width>
-            <ZIndex>2</ZIndex>
-            <Style>
-              <Border>
-                <Color>LightGrey</Color>
-                <Style>Solid</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
         </ReportItems>
         <Height>8.03162cm</Height>
         <Style />
@@ -425,7 +394,6 @@
               <Source>Embedded</Source>
               <Value>companylogo</Value>
               <Sizing>FitProportional</Sizing>
-              <Left>5.7824cm</Left>
               <Height>2.8462cm</Height>
               <Width>5.09833cm</Width>
               <Style>

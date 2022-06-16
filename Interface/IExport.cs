@@ -4,7 +4,7 @@ namespace ExportPDF.Interface
 {
     public interface IExport
     {
-        byte[] GenerateReportAsync(string reportName);
+        byte[] GenerateReportAsync();
         List<FinancialReport> Import(IFormFile postedFile);
     }
 }

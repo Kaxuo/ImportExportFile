@@ -14,14 +14,14 @@ namespace ExportPDF.Controllers
             _exportRepository = repository;
         }
 
-        [HttpGet("{reportName}")]
-        public ActionResult Generate(string reportName)
+        [HttpGet("generate")]
+        public ActionResult Generate()
         {
             try
             {
-                var reportFileByteString = _exportRepository.GenerateReportAsync(reportName);
+                var reportFileByteString = _exportRepository.GenerateReportAsync();
                 // Provile values to the report //
-                return File(reportFileByteString, MediaTypeNames.Application.Octet, reportName + ".pdf");
+                return File(reportFileByteString, MediaTypeNames.Application.Octet, "Report" + ".pdf");
             }
             catch (Exception ex)
             {
