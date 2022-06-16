@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ReportFiles\ActionPlanReport.rdlc" />
+    <None Remove="ReportFiles\IncidentReport.rdlc" />
     <None Remove="ReportFiles\ProductDetails.rdlc" />
     <None Remove="ReportFiles\Report.rdlc" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ReportFiles\ActionPlanReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportFiles\IncidentReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="ReportFiles\Report.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
