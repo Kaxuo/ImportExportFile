@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "phNww+j3nDwf2+93DK8v2TxUiIKEcP6SUR4t27SbjXTeMocBtkduqE+u3DW9SNYS20LZ1zthyrO6RXiL6Z1FfQ==",
+  "dgSpecHash": "sVHRYsi3JlcpvD9PnYs9lJIcdSGN3EsG/0DHRXgVE1CskjXJpTyzU072oFcv8X7/l1DqxWhU4+Gkljr+csAYwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hoang.nguyen\\Documents\\BuSi\\ExportedPDF\\ExportedPDF.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "C:\\Users\\hoang.nguyen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\hoang.nguyen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\hoang.nguyen\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
-    "C:\\Users\\hoang.nguyen\\.nuget\\packages\\system.codedom\\4.5.0\\system.codedom.4.5.0.nupkg.sha512",
+    "C:\\Users\\hoang.nguyen\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\hoang.nguyen\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\hoang.nguyen\\.nuget\\packages\\system.data.sqlclient\\4.5.1\\system.data.sqlclient.4.5.1.nupkg.sha512",
     "C:\\Users\\hoang.nguyen\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",

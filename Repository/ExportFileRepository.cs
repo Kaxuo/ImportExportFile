@@ -10,22 +10,22 @@ namespace ExportPDF.Repository
 {
     public class ExportFileRepository : IExport
     {
-        public byte[] GenerateReportAsync()
+        public byte[] GenerateReportAsync(string reportName)
         {
             // ExportedPDF.dll can be found in bin/debug/.. , needed to find the rdlc file
             string fileDirPath = Assembly.GetExecutingAssembly().Location.Replace("ExportedPDF.dll", string.Empty);
             // Providing the path and file name
-            string rdlcFilePath = string.Format("{0}ReportFiles\\{1}.rdlc", fileDirPath, "ActionPlanReport");
+            string rdlcFilePath = string.Format("{0}ReportFiles\\{1}.rdlc", fileDirPath, reportName);
             // Create instance of System Text Encoding 
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             Encoding.GetEncoding("utf-8");
             // File is loaded // 
             LocalReport report = new LocalReport(rdlcFilePath);
             // Simulate data for the report
-            List<ProductDto> productList = new List<ProductDto> {
-                { new ProductDto("jptyhjtytyjty", "Blob", "email", "09790709") }};
+            List<RandomData> randomDataList = new List<RandomData> {
+                { new RandomData("jptyhjtytyjty", "Blob", "email", "09790709") }};
             // dsProducts needs to match the datasets of the rdlc file, the properties of the model should also matched the fields of the datasets
-            report.AddDataSource("dsDatasets", productList);
+            report.AddDataSource("dsDatasets", randomDataList);
             Dictionary<string, string> parameters = new Dictionary<string, string>();
             // Create render type , pdf, excel or any other
             var result = report.Execute(RenderType.Pdf, 1, parameters);

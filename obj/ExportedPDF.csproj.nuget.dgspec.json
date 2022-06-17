@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[6.2.3, )"
             },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "System.Security.Permissions": {
               "target": "Package",
               "version": "[6.0.0, )"
