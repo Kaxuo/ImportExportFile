@@ -11,6 +11,7 @@
     <None Remove="ReportFiles\IncidentReport.rdlc" />
     <None Remove="ReportFiles\ProductDetails.rdlc" />
     <None Remove="ReportFiles\Report.rdlc" />
+    <None Remove="ReportFiles\RiskQualityReview.rdlc" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ReportFiles\ProductDetails.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportFiles\RiskQualityReview.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

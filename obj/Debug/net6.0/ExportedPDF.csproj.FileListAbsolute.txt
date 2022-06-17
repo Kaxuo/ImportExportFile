@@ -53,3 +53,4 @@ C:\Users\hoang.nguyen\Documents\BuSi\ExportedPDF\obj\Debug\net6.0\ExportedPDF.ge
 C:\Users\hoang.nguyen\Documents\BuSi\ExportedPDF\obj\Debug\net6.0\ref\ExportedPDF.dll
 C:\Users\hoang.nguyen\Documents\BuSi\ExportedPDF\bin\Debug\net6.0\ReportFiles\ActionPlanReport.rdlc
 C:\Users\hoang.nguyen\Documents\BuSi\ExportedPDF\bin\Debug\net6.0\ReportFiles\IncidentReport.rdlc
+C:\Users\hoang.nguyen\Documents\BuSi\ExportedPDF\bin\Debug\net6.0\ReportFiles\RiskQualityReview.rdlc

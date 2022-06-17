@@ -527,8 +527,8 @@
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>0.94226cm</Top>
-            <Left>0.39852cm</Left>
+            <Top>0.90698cm</Top>
+            <Left>0.16797cm</Left>
             <Height>3.02739cm</Height>
             <Width>27.62148cm</Width>
             <Style>
@@ -1239,8 +1239,8 @@
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
-            <Top>3.96965cm</Top>
-            <Left>0.39852cm</Left>
+            <Top>3.93437cm</Top>
+            <Left>0.16797cm</Left>
             <Height>1.997cm</Height>
             <Width>27.62148cm</Width>
             <ZIndex>1</ZIndex>
@@ -1254,7 +1254,7 @@
         <Height>8.9597cm</Height>
         <Style />
       </Body>
-      <Width>32.86712cm</Width>
+      <Width>28.63379cm</Width>
       <Page>
         <PageHeight>21cm</PageHeight>
         <PageWidth>29.7cm</PageWidth>

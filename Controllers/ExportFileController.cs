@@ -15,11 +15,11 @@ namespace ExportPDF.Controllers
         }
 
         [HttpGet("{reportName}")]
-        public ActionResult Generate(string reportname)
+        public ActionResult Generate(string reportName)
         {
             try
             {
-                var reportFileByteString = _exportRepository.GenerateReportAsync(reportname);
+                var reportFileByteString = _exportRepository.GenerateReportAsync(reportName);
                 // Provile values to the report //
                 return File(reportFileByteString, MediaTypeNames.Application.Octet, "Report" + ".pdf");
             }
