@@ -2776,19 +2776,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hoang.nguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\Kaxuo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hoang.nguyen\\Documents\\BuSi\\ExportedPDF\\ExportedPDF.csproj",
+      "projectUniqueName": "C:\\Users\\Kaxuo\\OneDrive\\Desktop\\Work\\BuSi\\ImportExportFile\\ExportedPDF.csproj",
       "projectName": "ExportedPDF",
-      "projectPath": "C:\\Users\\hoang.nguyen\\Documents\\BuSi\\ExportedPDF\\ExportedPDF.csproj",
-      "packagesPath": "C:\\Users\\hoang.nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hoang.nguyen\\Documents\\BuSi\\ExportedPDF\\obj\\",
+      "projectPath": "C:\\Users\\Kaxuo\\OneDrive\\Desktop\\Work\\BuSi\\ImportExportFile\\ExportedPDF.csproj",
+      "packagesPath": "C:\\Users\\Kaxuo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kaxuo\\OneDrive\\Desktop\\Work\\BuSi\\ImportExportFile\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hoang.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kaxuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2853,7 +2853,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
